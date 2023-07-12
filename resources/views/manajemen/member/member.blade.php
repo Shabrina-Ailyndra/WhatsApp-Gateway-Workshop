@@ -40,7 +40,7 @@
                                 <div class="modal fade" id="exampleModal{{ $item->id }}" tabindex="-1"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
-                                        <form action="{{ route('pasien.store') }}" method="post">
+                                        <form action="/manajemen/member/tambah-pegawai-ke-pasien" method="post">
                                             @csrf
                                             <div class="modal-content">
                                                 <div class="modal-header">
